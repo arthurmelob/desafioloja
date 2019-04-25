@@ -90,7 +90,7 @@ span:after{
 #check:checked ~ label{
 	border-radius: 50%;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.container_header__logo, .container_header__menu{
 		display: none;
 	}
@@ -184,11 +184,15 @@ p{
 	height: 6px;
 	background-color: #FF0000;
 }
+.containerSales__img{
+	height: 200px;
+	width: 180px;
+}
 .image{
 	width: 180px;
 	height: 180px;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.sales{
 		font-size: 1.5em;
 	}
